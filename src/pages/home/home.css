@@ -1,0 +1,118 @@
+#home {
+  display: flex;
+  flex-direction: column;
+  background-color: #3b2a51;
+}
+
+.header {
+  display: flex;
+  background: black;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo-style {
+  margin-top: 10px;
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  background: url("../../../public/images/windowsXP.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.section1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section2 {
+  position: relative;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.section2 img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 100%;
+  height: auto;
+}
+
+#capaCD {
+}
+
+#atGif {
+}
+
+#cartGif {
+}
+
+.OnlineStoreButton {
+  display: inline-block;
+}
+
+.OnlineStoreButton img {
+  max-width: 100%;
+  height: auto;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.icons img {
+  margin: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.social-media-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-style {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .content {
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  .section2 img {
+    width: 70px;
+    position: static;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .OnlineStoreButton img {
+    width: 100%;
+  }
+
+  .icons img {
+    margin: 5px;
+  }
+}

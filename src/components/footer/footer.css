@@ -1,0 +1,27 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-image-container {
+  position: relative;
+}
+
+.footer-image {
+  position: absolute;
+  width: 100%;
+}
+
+.footer-gif {
+  position: absolute;
+  width: 100%;
+}
+
+.footer-image img {
+  width: 100%;
+  margin-top: -10px;
+}
+
+.footer-gif img {
+  width: 15%;
+}

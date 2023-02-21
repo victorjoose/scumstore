@@ -1,0 +1,21 @@
+.social-media-icons {
+  display: flex;
+  width: 100vw;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: solid #61408b;
+  border-width: 1px;
+  background-color: #3b2a51;
+  display: flex;
+  gap: 30px;
+  width: 80%;
+  padding: 10px 0 0;
+}
