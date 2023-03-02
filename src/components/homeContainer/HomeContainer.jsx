@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./homeContainer.css";
 
-import capaCDgif from "../../../public/images/cdHomePage.gif";
-import capaCDpng from "../../../public/images/cdHomePage.png";
-import onlineStoreButtongif from "../../../public/images/online-store-button.gif";
-import onlineStoreButtonhover from "../../../public/images/online-store-button-hover.png";
-import windowsXP from "../../../public/images/windowsXP.png";
-import atGif from "../../../public/images/atGif.gif";
-import cartGif from "../../../public/images/carrinho.gif";
+import capaCDgif from "../../public/images/cdHomePage.gif";
+import capaCDpng from "../../public/images/cdHomePage.png";
+import onlineStoreButtongif from "../../public/images/online-store-button.gif";
+import onlineStoreButtonhover from "../../public/images/online-store-button-hover.png";
+import windowsXP from "../../public/images/windowsXP.png";
+import atGif from "../../public/images/atGif.gif";
+import cartGif from "../../public/images/carrinho.gif";
 
 function HomeContainer() {
   const [storeButton, setStoreButton] = useState(onlineStoreButtongif);

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import footerStreet from "../../../public/images/footerStreet.png";
-import skate from "../../../public/images/skate.svg";
-import skategif from "../../../public/images/skate.gif";
+import footerStreet from "../../public/images/footerStreet.png";
+import skate from "../../public/images/skate.svg";
+import skategif from "../../public/images/skate.gif";
 import SocialMediaIcons from "../socialMediaIcons/SocialMediaIcons";
 import "./footer.css"; // import CSS file
 
