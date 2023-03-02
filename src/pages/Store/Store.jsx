@@ -5,7 +5,7 @@ import ProductCard from '../../components/productCard/ProductCard';
 import SocialMediaIcons from '../../components/socialMediaIcons/SocialMediaIcons'
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import "swiper/css"
+import "swiper/swiper.min.css"
 import "./store.css";
 
 export default function Store() {
@@ -16,6 +16,22 @@ export default function Store() {
             </div>
             <div className='store-content-container'>
                 <Swiper
+                    breakpoints={{
+                        // when window width is >= 0px
+                        0: {
+                            slidesPerView: 2,
+                            spaceBetween: 10
+                        },
+                        // when window width is >= 1250px
+                        1250: {
+                            slidesPerView: 3,
+                            spaceBetween: 25
+                        },
+                        // when window width is >= 1550px
+                        1550: {
+                            slidesPerView: 4
+                        }
+                    }}
                     spaceBetween={50}
                     slidesPerView={4}
                     onSlideChange={console.log('slide change')}
