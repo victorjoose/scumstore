@@ -1,8 +1,11 @@
 .store-wrapper-container {
+    text-align: center;
     background-color: #3b2a51;
 }
 
 .store-content-container {
+    display: flex;
+    gap: 30px;
     height: 52vh;
     background-color: #3b2a51;
 }
