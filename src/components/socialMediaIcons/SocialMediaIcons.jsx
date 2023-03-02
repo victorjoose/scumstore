@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import fbHover from "../../../public/images/socialMediaIcons/fb-hover.svg";
-import igHover from "../../../public/images/socialMediaIcons/ig-hover.svg";
-import spHover from "../../../public/images/socialMediaIcons/sp-hover.svg";
-import ytHover from "../../../public/images/socialMediaIcons/yt-hover.svg";
-import fb from "../../../public/images/socialMediaIcons/fb.svg";
-import ig from "../../../public/images/socialMediaIcons/ig.svg";
-import sp from "../../../public/images/socialMediaIcons/sp.svg";
-import yt from "../../../public/images/socialMediaIcons/yt.svg";
+import fbHover from "../../public/images/socialMediaIcons/fb-hover.svg";
+import igHover from "../../public/images/socialMediaIcons/ig-hover.svg";
+import spHover from "../../public/images/socialMediaIcons/sp-hover.svg";
+import ytHover from "../../public/images/socialMediaIcons/yt-hover.svg";
+import fb from "../../public/images/socialMediaIcons/fb.svg";
+import ig from "../../public/images/socialMediaIcons/ig.svg";
+import sp from "../../public/images/socialMediaIcons/sp.svg";
+import yt from "../../public/images/socialMediaIcons/yt.svg";
 import "./socialMediaIcons.css";
 
 function SocialMediaIcons() {

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import cartIcon from "../../../public/images/carrinho.gif";
-import logo from "../../../public/images/logo.png";
+import cartIcon from "../../public/images/carrinho.gif";
+import logo from "../../public/images/logo.png";
 import "./header.css";
 
 function Header() {
