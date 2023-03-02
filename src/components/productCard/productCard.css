@@ -1,0 +1,35 @@
+.product-card-wrapper-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: red;
+    min-height: 410px;
+    min-width: 410px;
+    height: 50vh;
+    max-width: 20vw;
+}
+
+.product-card-first-block {
+    flex: 7;
+}
+
+.product-card-second-block {
+    flex: 5;
+}
+
+.product-card-image {
+    width: 400px;
+    height: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+    .product-card-wrapper-container {
+        min-width: 210px;
+        min-height: 210px;
+    }
+
+    .product-card-image {
+        width: 200px;
+        height: 200px;
+    }
+}
